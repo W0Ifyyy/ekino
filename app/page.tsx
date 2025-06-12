@@ -1,7 +1,5 @@
 export default function HomePage() {
-  return (
-    <article>
-      <section>Homepage</section>
-    </article>
-  );
+	return <article>
+		<section>Homepage</section>
+	</article>;
 }

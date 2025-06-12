@@ -1,8 +1,8 @@
-export default function FirstPostPage() {
+export default function RegisterPage() {
     return (
         <article>
             <section>
-                Pierwszy wpis
+                Rejestracja
             </section>
         </article>
     )

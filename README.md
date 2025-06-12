@@ -1,25 +1,36 @@
-# Next.js Course Project
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This repository contains my project work created while following the Next.js course by Sebastian Machaj. This is a learning project where I implement concepts and techniques taught throughout the course.
+## Getting Started
 
-## About the Project
+First, run the development server:
 
-This is a practical application of Next.js concepts I'm learning during the course. The project evolves as I progress through different modules and lessons.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Technologies Used
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- Next.js
-- React
-- JavaScript/TypeScript
-- Tailwindcss
-- Shadcn
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Course Progress
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-This repository will be updated regularly as I complete new sections of the course.
+## Learn More
 
-## Learning Goals
+To learn more about Next.js, take a look at the following resources:
 
-- Master Next.js fundamentals
-- Develop full-stack applications with Next.js
-- Implement best practices for web development
+-   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+-   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

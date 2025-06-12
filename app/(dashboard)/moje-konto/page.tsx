@@ -1,8 +1,8 @@
-export default function FirstPostPage() {
+export default function MyAccountPage() {
     return (
         <article>
             <section>
-                Pierwszy wpis
+                Moje konto
             </section>
         </article>
     )

@@ -1,9 +1,13 @@
-import { ReactNode } from "react";
+import { ReactNode } from "react"
 
 type TProps = {
-  children: ReactNode;
-};
+    children: ReactNode
+}
 
-export default function BlogLayout({ children }: TProps) {
-  return <div>{children}</div>;
+export default function BlogLayout({children}: TProps) {
+    return (
+        <>
+            {children}
+        </>
+    )
 }
