@@ -2,10 +2,12 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 
 import './globals.css';
-import { cn } from "@/utils/lib/tailwind";
-import Header from "@/components/layout/header";
 
-const inter = Inter({ subsets: ['latin'], variable: "--font-sans", });
+import { cn } from '@/utils/lib/tailwind';
+
+import Header from '@/components/layout/header';
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 
 export const metadata: Metadata = {
 	title: 'Create Next App',
@@ -19,14 +21,13 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="pl">
-			<body className={cn(
-				'min-h-screen bg-foreground font-sans antialiased',
-				inter.variable
-			)}>
+			<body
+				className={cn(
+					'min-h-screen bg-foreground font-sans antialiased [&_section]:h-[2000] [&_section]:text-white',
+					inter.variable,
+				)}>
 				<Header />
-				<main>
-				{children}
-				</main>
+				<main>{children}</main>
 			</body>
 		</html>
 	);
