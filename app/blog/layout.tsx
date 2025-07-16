@@ -1,13 +1,13 @@
-import { ReactNode } from "react"
+import { ReactNode } from 'react';
+
+export const metadata = {
+	title: 'Blog',
+};
 
 type TProps = {
-    children: ReactNode
-}
+	children: ReactNode;
+};
 
-export default function BlogLayout({children}: TProps) {
-    return (
-        <>
-            {children}
-        </>
-    )
+export default function BlogLayout({ children }: TProps) {
+	return <>{children}</>;
 }
